@@ -1,6 +1,6 @@
 # Configuration settings for the job prep agentic system
 
-API_KEY = "AIzaSyCYoVFFcYrl8XaRmpIFDKacF8CYCteXmqM"
+API_KEY = "your-key"
 RESOURCE_URL = "https://api.example.com/resources"
 DAILY_CODING_PROBLEMS_COUNT = 3
 SYSTEM_DESIGN_PROBLEM_COUNT = 1
