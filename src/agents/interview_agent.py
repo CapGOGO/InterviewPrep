@@ -1,7 +1,7 @@
 class InterviewAgent:
     def fetch_coding_problems(self):
         import requests, json, os
-        from ..config import settings
+        from config import settings
         response = requests.get(settings.LEETCODE_API_URL)
         problems = []
         if response.status_code == 200:
@@ -23,7 +23,7 @@ class InterviewAgent:
             "Design a distributed cache.",
             "Design a real-time chat application."
         ]
-        from ..config import settings
+        from config import settings
         selected = problems[:settings.SYSTEM_DESIGN_PROBLEM_COUNT]
         resources_dir = os.path.join(os.path.dirname(__file__), '..', 'resources')
         os.makedirs(resources_dir, exist_ok=True)
@@ -34,7 +34,7 @@ class InterviewAgent:
     def fetch_ml_theory(self):
         import requests, json, os
         from bs4 import BeautifulSoup
-        from ..config import settings
+        from config import settings
         response = requests.get(settings.WIKIPEDIA_ML_URL)
         topics = []
         if response.status_code == 200:
