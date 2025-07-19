@@ -1,6 +1,10 @@
 class InterviewAgent:
     def generate_solutions_for_all_unsolved(self):
         unsolved = self.get_unsolved_questions()
+        if not unsolved:
+            # Try to populate questions if none are available yet
+            self.curate_top_company_questions()
+            unsolved = self.get_unsolved_questions()
         for question in unsolved:
             print(f"Generating solutions for: {question.get('stat', {}).get('question__title', '')}")
             py_solution = self.generate_llm_solution(question, 'python')
