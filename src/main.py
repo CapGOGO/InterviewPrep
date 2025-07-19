@@ -7,6 +7,8 @@ def main():
     # Generate and save solutions for all unsolved top company questions
     
     agent = InterviewAgent()
+    # Ensure we have a curated list of top questions before attempting solutions
+    agent.curate_top_company_questions()
     agent.generate_solutions_for_all_unsolved()
     
     # Generate daily tasks
