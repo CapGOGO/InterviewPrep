@@ -4,4 +4,5 @@ numpy
 pandas
 scikit-learn
 flask
+beautifulsoup4
 pytest
