@@ -1,0 +1,71 @@
+[
+  {
+    "stat": {
+      "question_id": 2594,
+      "question__article__live": null,
+      "question__article__slug": null,
+      "question__article__has_video_solution": null,
+      "question__title": "Count Pairs Of Similar Strings",
+      "question__title_slug": "count-pairs-of-similar-strings",
+      "question__hide": false,
+      "total_acs": 63562,
+      "total_submitted": 87482,
+      "frontend_question_id": 2506,
+      "is_new_question": false
+    },
+    "status": null,
+    "difficulty": {
+      "level": 1
+    },
+    "paid_only": false,
+    "is_favor": false,
+    "frequency": 0,
+    "progress": 0
+  },
+  {
+    "stat": {
+      "question_id": 3706,
+      "question__article__live": null,
+      "question__article__slug": null,
+      "question__article__has_video_solution": null,
+      "question__title": "Smallest Substring With Identical Characters II",
+      "question__title_slug": "smallest-substring-with-identical-characters-ii",
+      "question__hide": false,
+      "total_acs": 6071,
+      "total_submitted": 15215,
+      "frontend_question_id": 3399,
+      "is_new_question": false
+    },
+    "status": null,
+    "difficulty": {
+      "level": 3
+    },
+    "paid_only": false,
+    "is_favor": false,
+    "frequency": 0,
+    "progress": 0
+  },
+  {
+    "stat": {
+      "question_id": 2299,
+      "question__article__live": true,
+      "question__article__slug": "merge-nodes-in-between-zeros",
+      "question__article__has_video_solution": false,
+      "question__title": "Merge Nodes in Between Zeros",
+      "question__title_slug": "merge-nodes-in-between-zeros",
+      "question__hide": false,
+      "total_acs": 313538,
+      "total_submitted": 350056,
+      "frontend_question_id": 2181,
+      "is_new_question": false
+    },
+    "status": null,
+    "difficulty": {
+      "level": 2
+    },
+    "paid_only": false,
+    "is_favor": false,
+    "frequency": 0,
+    "progress": 0
+  }
+]
